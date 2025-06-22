@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Thumbnail from "@/Thumbnail.png"
+import { Link } from "react-router"
 export default function App() {
   return (
     <main className='w-full min-h-screen p-10 flex flex-col items-center justify-center'>
@@ -18,9 +19,13 @@ export default function App() {
             Web Synth Provides you all you need to create your own custom tts in your browser FOR FREE.
           </div>
           <div className="inline-flex gap-2">
+            <Link to="/create" className="text-accent -">
+              <Button variant="ghost" className="bg-green-200 text-accent ">Start </Button>
+            </Link>
+            <Link to="https://archiveneet.org" className="">
 
-            <Button variant="ghost" className="bg-green-200 text-accent ">Start </Button>
-            <Button variant="outline" className="bg-green-200  ">Support 🥸</Button>
+              <Button variant="outline" className=" ">Support 🥸</Button>
+            </Link>
           </div>
         </div>
 
