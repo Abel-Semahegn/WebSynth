@@ -3,16 +3,16 @@ import Thumbnail from "@/Thumbnail.png"
 export default function App() {
   return (
     <main className='w-full min-h-screen p-10 flex flex-col items-center justify-center'>
-      <div className="max-w-4xl flex flex-row gap-4 h-full">
+      <div className="w-full md:max-w-4xl flex flex-row gap-4 h-full items-center justify-center">
         <img
           src={Thumbnail}
           alt="Web Synth Logo"
-          className="w-2/3  md:visible invisible"
+          className="md:w-2/3 w-0  md:visible invisible"
         />
-        <div className="w-full flex flex-col  justify-center">
+        <div className="w-full flex flex-col md:items-start  items-center justify-center">
 
-          <div className="md:text-6xl text-lg font-bold text-green-200">Stupid Simple TTS </div>
-          <div className="md:text-6xl text-lg font-bold">for your needs</div>
+          <div className="md:text-6xl text-3xl font-bold text-green-200">Stupid Simple TTS </div>
+          <div className="md:text-6xl text-3xl font-bold">for your needs</div>
           <div className="font-thin ">
             If you wanted a simple platform to create a custom tts  you have come to the right place.
             Web Synth Provides you all you need to create your own custom tts in your browser FOR FREE.
