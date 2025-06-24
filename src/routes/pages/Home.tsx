@@ -19,7 +19,7 @@ export default function App() {
             Web Synth Provides you all you need to create your own custom tts in your browser FOR FREE.
           </div>
           <div className="inline-flex gap-2">
-            <Link to="/create" className="text-accent -">
+            <Link to="/Dashboard" className="text-accent -">
               <Button variant="ghost" className="bg-green-200 text-accent ">Start </Button>
             </Link>
             <Link to="https://archiveneet.org" className="">
