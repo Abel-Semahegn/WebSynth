@@ -18,7 +18,7 @@ ReactDOM.createRoot(root!).render(
         <Route path="/" element={<Home />} />
         <Route path="/app" element={<DashboardLayout />}>
           <Route index element={<Dashboard />} />
-          <Route path="DeapFake" element={<DeapFake />} />
+          <Route path="DeepFake" element={<DeapFake />} />
           <Route path="LLM" element={<LLM />} />
           <Route path="TTS" element={<TTS />} />
           <Route path="ImageGen" element={<ImageGen />} />

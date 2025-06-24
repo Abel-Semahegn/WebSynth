@@ -1,12 +1,17 @@
 import { Outlet } from "react-router";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
+import { SidebarProvider } from "@/components/ui/sidebar"
 import {AppSidebar} from "@/components/app-sidebar";
+import Navbar from "@/components/Navbar";
 export default function DashboardLayout() {
   return (
-    <SidebarProvider>
+      <SidebarProvider>
+
       <AppSidebar />
       <main className="w-full h-full">
-        <SidebarTrigger />
+        <div className="w-full sticky top-0 z-50 bg-black">
+        <Navbar/>
+
+        </div>
         <Outlet />
       </main>
     </SidebarProvider>
