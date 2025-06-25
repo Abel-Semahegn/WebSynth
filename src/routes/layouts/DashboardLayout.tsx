@@ -8,7 +8,7 @@ export default function DashboardLayout() {
 
       <AppSidebar />
       <main className="w-full h-full">
-        <div className="w-full sticky top-0 z-50 bg-black">
+        <div className="w-full sticky top-0 z-50 ">
         <Navbar/>
 
         </div>
